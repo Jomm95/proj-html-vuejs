@@ -24,6 +24,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./assets/general.scss";
+@import './assets/general.scss';
+@import "@fortawesome/fontawesome-free/css/all.css";
+
 
 </style>
