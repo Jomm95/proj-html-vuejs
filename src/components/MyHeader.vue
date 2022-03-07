@@ -60,6 +60,7 @@ export default {
 
 <style scoped lang="scss">
 @import '../assets/myVariables.scss';
+@import '../assets/general.scss';
 
 header {
   position:relative;

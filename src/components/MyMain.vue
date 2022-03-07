@@ -1,12 +1,22 @@
 <template>
+
   <div>
-      <h1>MyMain</h1>
+      <LogisticServices/>
   </div>
+  
 </template>
 
 <script>
+
+import LogisticServices from './partials/LogisticServices.vue';
+
 export default {
   name: "MyMain",
+  
+
+  components: {
+    LogisticServices
+  },
   props: {
     
   },
@@ -14,5 +24,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
+@import '../assets/myVariables.scss';
+@import '../assets/general.scss';
 
 </style>
