@@ -164,6 +164,7 @@ header > div, nav {
 
         p {
           color:$greyText;
+          font-weight: 600;
           padding:12px 0 30px 0;
         }
 
